@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nick">
+    <title>Workout Smarter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.youtube.com/iframe_api" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Workout Smarter</h1>
+            <div class="subtitle">
+                Explore our exercise library, complete with detailed video guides
+            </div>
+        </div>
+        <div class="search-bar">
+            <div id="select">
+                <p id="selectText">All Categories</p>
+                <div class="arrow"></div>
+                <ul id="list" class="hidden">
+                    <li class="options">All Categories</li>
+                    <li class="options" data-category="Chest">Chest</li>
+                    <li class="options" data-category="Back">Back</li>
+                    <li class="options" data-category="Triceps">Triceps</li>
+                    <li class="options" data-category="Biceps">Biceps</li>
+                    <li class="options" data-category="Shoulders">Shoulders</li>
+                    <li class="options" data-category="Abs">Abs</li>
+                    <li class="options" data-category="Legs">Legs</li>
+                </ul>
+            </div>
+
+            <div class="workout-list">
+                <div class="workout-list trigger-description">
+                    <input type="text" id="inputfield" placeholder="Search in All Categories">
+                    <div id="selectWorkout" class="dropdown hidden">
+                        <div class=""></div>
+                        <ul class="workout-options"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="workout-dropdown">
+                <ul class="workout-details"></ul>
+                <div id="videoPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
