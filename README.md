@@ -17,23 +17,6 @@ Workout Smarter is a web application designed to help users find workout routine
 - **Video Hosting**: Integration with video hosting services (e.g., YouTube)
 - **APIs**: Integration with third-party APIs for workout data retrieval and video embedding.
 
-## Installation
-
-To run the Workout Smarter application locally, follow these steps:
-
-1. Clone the GitHub repository to your local machine:
-
-   ```
-   git clone https://github.com/your-username/workout-smarter.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd workout-smarter
-   ```
-
-3. Open the `index.html` file in your preferred web browser.
 
 ## Usage
 
